@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+  padding: 20px;
+  font-size: x-large;
+}
+
+.input {
+font-size: x-large;
+margin: 20px;
+flex: content;
+}
+
+#dice {
+  text-align: center;
+  align-self: center;
+  height: 110px;
+  width: 130px;
+  border: 1px solid gray;
+  border-radius: 10px;  
+  font-size:80px;
+  align-content: center;
+
+}
+
+#button
+{
+padding: 10px;
+}
+
+#roll-container{
+gap: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
